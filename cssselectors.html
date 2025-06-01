@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTOR </title>
+    <style>
+        .red{
+            background-color: rgb(227, 15, 15);
+        }
+        #green {
+            background-color: rgb(13, 219, 44);
+        }
+        div > p{
+            color: red;
+            background-color: blue;
+        }
+        div p{
+            color:purple;
+            background-color: blanchedalmond;
+        }
+        *{
+           padding:0;
+           margin:0; 
+        }
+        a:visited{
+            color:green
+        }
+        a:link{
+          color: yellow;  
+        }
+        a:active{
+            background-color:red;
+
+        }
+        p:first-child{
+            background-color:aqua;
+        }        
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>i am first
+        </p>
+        <p>i am second </p>
+    </main>
+    <div class="red">
+        i am a sketcher
+    </div>
+    <div>
+        how is the day 
+    </div>
+    <div id="green" >
+my favourite color is green 
+    </div>
+    <div>
+        <article>
+        <p>
+            i am a para 
+        </p>
+    </article>
+    </div>
+    <a href="https://www.google.com/?client=safari"> go to google</a>
+    <a href="https://www.youtube.com/"> go to youtube </a>
+</body>
+
+</html>
