@@ -1,0 +1,6 @@
+console.log("hello world")
+console.log("code is running")
+console.log("code is working")
+console.log("code is perfect ")
+console.log("this is my 1st code in javascript ")
+console.log("how are you ")
